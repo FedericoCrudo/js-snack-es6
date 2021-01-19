@@ -16,7 +16,7 @@ document.getElementById("container").innerHTML=`
 `;
 
 
-for(var i=0;i<num.length;i++){
+for(let i=0;i<num.length;i++){
   if(num[i]%2==0){
     document.getElementById("green").innerHTML+=num[i];
   }
