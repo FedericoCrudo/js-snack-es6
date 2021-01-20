@@ -8,7 +8,7 @@ const array=["Marco","Franco","Lucia","Francesca","Lorenzo"];
 const arrayRange=[];
 const firstNumber=parseInt(prompt("Inserire il primo numero: ")) ;
 const secondNumber=parseInt(prompt("Inserire il secondo  numero: ")) ;
-array.forEach((element, index, array) => {
+array.forEach((element, index) => {
     if(index>=firstNumber &&index<=secondNumber){
       arrayRange.push(element);
     }

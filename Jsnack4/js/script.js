@@ -22,7 +22,7 @@ const bici=[
 const [primaBici, secondaBici,terzaBici,quartaBici] =bici;
  let min=primaBici.peso;
  let esito;
-bici.forEach((element,index,array)=>{
+bici.forEach((element)=>{
   console.log(element);
   if(element.peso<min){
     min=element.peso;
